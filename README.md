@@ -25,6 +25,7 @@ Load Local Image into minikube
 
 ```bash
 minikube image load getting-started:latest
+minikube image load hello-world:php8.3
 ```
 
 Then do add the deployment and service.
@@ -33,4 +34,5 @@ In order to access from your browser, you need to [port forward](https://kuberne
 
 ```bash
 kubectl port-forward service/getting-started 3000:3000
+kubectl port-forward service/hello-world 8083:8083
 ```
