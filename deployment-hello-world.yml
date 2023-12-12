@@ -16,5 +16,5 @@ spec:
       - name: hello-world
         image: hello-world:php8.3
         ports:
-        - containerPort: 8083
+        - containerPort: 80
         imagePullPolicy: Never
