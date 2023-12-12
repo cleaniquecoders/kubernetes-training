@@ -34,5 +34,5 @@ In order to access from your browser, you need to [port forward](https://kuberne
 
 ```bash
 kubectl port-forward service/getting-started 3000:3000
-kubectl port-forward service/hello-world 8083:8083
+kubectl port-forward service/hello-world 8083:80
 ```
